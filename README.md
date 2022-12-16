@@ -15,3 +15,7 @@ target_compile_options(<target> PRIVATE "-fcoroutines")
 
 target_add_compile_flags_if_supported(<target> PRIVATE -fcoroutines)
 ```
+
+## 参考资料
+
+- [Your first coroutine](https://blog.panicsoftware.com/your-first-coroutine/)

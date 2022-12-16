@@ -34,3 +34,4 @@ message(STATUS "[cmake] Build with c flags:     ${CMAKE_C_FLAGS_${BUILD_TYPE}} $
 
 add_subdirectory(base)
 add_subdirectory(fibonacci)
+add_subdirectory(promise)
